@@ -7,7 +7,8 @@ namespace Strings
         static void Main()
         {
             string aFriend = "Amy";
-            Console.WriteLine($"Hello {aFriend}");
+            string newFriend = "Steve";
+            Console.WriteLine($"My friends are {aFriend} and {newFriend}");
         }
     }
 }
