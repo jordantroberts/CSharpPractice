@@ -6,23 +6,14 @@ namespace Strings
     {
         static void Main()
         {
-            string greeting = "      Hello World!       ";
-            Console.WriteLine($"[{greeting}]");
-
-            string trimmedGreeting = greeting.TrimStart();
-            Console.WriteLine($"[{trimmedGreeting}]");
-
-            trimmedGreeting = greeting.TrimEnd();
-            Console.WriteLine($"[{trimmedGreeting}]");
-
-            string greeting2 = greeting.Trim();
-            Console.WriteLine($"[{greeting2}]");
+            string sayHello = "Hello World!";
+            Console.WriteLine(sayHello);
+            sayHello = sayHello.Replace("Hello", "Konnichiwa");
+            Console.WriteLine(sayHello);
+            Console.WriteLine(sayHello.ToUpper());
+            Console.WriteLine(sayHello.ToLower());
         }
     }
 }
 
 // Output:
-//[Hello World!       ]
-//[Hello World!       ]
-//[Hello World!]
-//[Hello World!]
