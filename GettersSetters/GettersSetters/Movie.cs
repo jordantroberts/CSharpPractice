@@ -6,7 +6,7 @@ namespace GettersSetters
     {
         public string title;
         public string director;
-        public string rating;
+        private string rating;
 
         public Movie(string aTitle, string aDirector, string aRating)
         {
