@@ -1,17 +1,20 @@
 ﻿using System;
 
-namespace Strings
+static class StringHelper
 {
-    class Stringy
+    public static string ReverseString(string s)
     {
-        static void Main()
-        {
-            string reverseMe = "Hello world!";
+        char[] arr = s.ToCharArray();
+        Array.Reverse(arr);
+        return new string(arr);
+    }
+}
 
-            for (int i = 0; i < reverseMe.Length; i++)
-            {
-                Console.Write(reverseMe[reverseMe.Length - i - 1]);
-            }
-        }
-    }   
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine(StringHelper.ReverseString("Jordan"));
+        Console.WriteLine(StringHelper.ReverseString("I love pizza"));
+    }
 }
