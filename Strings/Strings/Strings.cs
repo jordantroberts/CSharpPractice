@@ -6,12 +6,12 @@ namespace Strings
     {
         static void Main()
         {
-            string aFriend = "Amy";
-            string newFriend = "Steve";
-            Console.WriteLine($"My friends are {aFriend} and {newFriend}");
-            Console.WriteLine($"The name {aFriend} has {aFriend.Length} letters.");
-            Console.WriteLine($"The name {newFriend} has {newFriend.Length} letters.");
-            Console.WriteLine($"Hey, {aFriend.Replace("Amy", "Rhiannon")}");
+            string reverseMe = "Hello world!";
+
+            for (int i = 0; i < reverseMe.Length; i++)
+            {
+                Console.Write(reverseMe[reverseMe.Length - i - 1]);
+            }
         }
-    }
+    }   
 }
