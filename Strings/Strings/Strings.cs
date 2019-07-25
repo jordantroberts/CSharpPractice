@@ -1,20 +1,28 @@
 ﻿using System;
 
-static class StringHelper
+namespace Strings
 {
-    public static string ReverseString(string s)
+    class Stringy
     {
-        char[] arr = s.ToCharArray();
-        Array.Reverse(arr);
-        return new string(arr);
+        static void Main()
+        {
+            string greeting = "      Hello World!       ";
+            Console.WriteLine($"[{greeting}]");
+
+            string trimmedGreeting = greeting.TrimStart();
+            Console.WriteLine($"[{trimmedGreeting}]");
+
+            trimmedGreeting = greeting.TrimEnd();
+            Console.WriteLine($"[{trimmedGreeting}]");
+
+            string greeting2 = greeting.Trim();
+            Console.WriteLine($"[{greeting2}]");
+        }
     }
 }
 
-class Program
-{
-    static void Main()
-    {
-        Console.WriteLine(StringHelper.ReverseString("Jordan"));
-        Console.WriteLine(StringHelper.ReverseString("I love pizza"));
-    }
-}
+// Output:
+//[Hello World!       ]
+//[Hello World!       ]
+//[Hello World!]
+//[Hello World!]
