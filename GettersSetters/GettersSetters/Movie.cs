@@ -12,7 +12,7 @@ namespace GettersSetters
         {
             title = aTitle;
             director = aDirector;
-            rating = aRating;
+            Rating = aRating;
         }
         // Getter and Setter for rating attribute to allow outside code, such as code in Program class, to both access the rating and modify and set the rating.
         // Define these through properties. Properties are sort of like methods but is a special method that will allow us to define our getter and setter.
