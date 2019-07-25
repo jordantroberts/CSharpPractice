@@ -17,3 +17,8 @@ namespace Strings
 }
 
 // Output:
+
+//Hello World!
+//Konnichiwa World!
+//KONNICHIWA WORLD!
+//konnichiwa world!
