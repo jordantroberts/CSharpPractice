@@ -7,8 +7,10 @@ namespace Strings
         static void Main()
         {
             string songLyrics = "We will we will rock you";
-            Console.WriteLine(songLyrics.Contains("rock"));
-            Console.WriteLine(songLyrics.Contains("eat"));
+            Console.WriteLine(songLyrics.StartsWith("We"));
+            Console.WriteLine(songLyrics.StartsWith("we"));
+            Console.WriteLine(songLyrics.StartsWith("rock"));
+            Console.WriteLine(songLyrics.EndsWith("you"));
         }
     }
 }
@@ -17,3 +19,5 @@ namespace Strings
 
 //True
 //False
+//False
+//True
