@@ -6,17 +6,22 @@ namespace Numbers
     {
         static void Main()
         {
-            double a = 5;
-            double b = 4;
-            double c = 2;
-            double d = (a + b) / c;
-            Console.WriteLine(d); 
+            double a = 1.0;
+            double b = 3.0;
+            Console.WriteLine(a / b);
 
-            
+            // The M suffix is how you indicate that a constant should use the decimal type. 
+            decimal c = 1.0M;
+            decimal d = 3.0M;
+            Console.WriteLine(c / d);
         }
     }
 }
 
 // Output:
 
-    // 4.5
+// 0.333333333333333
+// 0.3333333333333333333333333333
+
+// Using a decimal type has more digits to the right of the decimal point.
+// The decimal type has a smaller range but greater precision than a double.
