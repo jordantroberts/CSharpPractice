@@ -6,7 +6,6 @@ namespace StaticMethodsAndClasses
     {
         static void Main(string[] args)
         {
-            UsefulTools tools = new UsefulTools(); 
             UsefulTools.SayHi("Jordan");
 
             // Didn't actually have to create an instance of the UsefulTools class!
