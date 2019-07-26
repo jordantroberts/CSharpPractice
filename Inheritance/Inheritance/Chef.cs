@@ -21,4 +21,4 @@ namespace Inheritance
 }
 
 // At the moment both chefs make the same special dish. If we want ItalianChef to make a different special dish, we need to override the inherited "MakeSpecialDish" method.
-// First to do this you need to add virtual so now is "public virtual void" 
+// First to do this you need to add virtual so now is "public virtual void". Virtual means this method can be overriden in any subclass.

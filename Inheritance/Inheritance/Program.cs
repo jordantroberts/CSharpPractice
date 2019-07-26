@@ -8,11 +8,10 @@ namespace Inheritance
         {
             // Created a new chef object and told it to make chicken: 
             Chef chef = new Chef();
-            chef.MakeChicken();
+            chef.MakeSpecialDish();
 
             ItalianChef italianChef = new ItalianChef();
-            italianChef.MakeChicken();
-            italianChef.MakePasta();
+            italianChef.MakeSpecialDish();
 
             Console.ReadLine();
         }
@@ -21,5 +20,8 @@ namespace Inheritance
 
 // Output:
 
-    //The Chef makes chicken
-    //The Chef makes chicken 
+//The Chef makes bbq ribs
+//The Chef makes chicken parm
+
+
+
