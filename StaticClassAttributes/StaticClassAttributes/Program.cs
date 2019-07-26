@@ -15,3 +15,5 @@ namespace StaticClassAttributes
     }
 }
 
+// Output:
+// 2 
