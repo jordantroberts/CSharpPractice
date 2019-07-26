@@ -2,7 +2,7 @@
 
 namespace StaticMethodsAndClasses
 {
-    class UsefulTools
+    static class UsefulTools
     {
        public static void SayHi(string name)
         {
