@@ -27,6 +27,7 @@ namespace StaticClassAttributes
         {
             return songCount; 
         }
+        // with this we should now be able to access the songCount of each object:
     }
 }
 
