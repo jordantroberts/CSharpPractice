@@ -7,6 +7,8 @@ namespace StaticMethodsAndClasses
         static void Main(string[] args)
         {
             Console.WriteLine(Math.Sqrt(144));
+            // Sqrt could be accessed without creating an instance of the Math class.
+            // This is an example of a static method.
 
             Console.ReadLine();
         }
