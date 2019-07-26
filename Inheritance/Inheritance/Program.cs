@@ -10,10 +10,15 @@ namespace Inheritance
             Chef chef = new Chef();
             chef.MakeChicken();
 
+            ItalianChef italianChef = new ItalianChef();
+            italianChef.MakeChicken();
+
             Console.ReadLine();
         }
     }
 }
 
-// Inheritance is basically a technique we can use in C# where we can have one class inherit all of the functionality from another class.
-// We can define a SUPERCLASS and create classes that can inherit all the functionality from that superclass, called subclasses.
+// Output:
+
+    //The Chef makes chicken
+    //The Chef makes chicken 
