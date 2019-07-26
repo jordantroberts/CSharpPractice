@@ -20,7 +20,7 @@ namespace StaticClassAttributes
             artist = aArtist;
             duration = aDuration;
             // every time we create a song, let's increment the song count:
-            songCount ++ 
+            songCount++;
         }
     }
 }
