@@ -22,6 +22,11 @@ namespace StaticClassAttributes
             // every time we create a song, let's increment the song count:
             songCount++;
         }
+
+        public int getSongCount()
+        {
+            return songCount; 
+        }
     }
 }
 
