@@ -9,6 +9,11 @@ namespace Inheritance
         // You could copy and paste the methods from the Chef class BUT in C# we don't have to and can use inheritance - the process of inheriting the functionality and attributes from another class.
         // Do this by adding : Chef
 
-        
+        // We refer to ItalianChef as subclass of Chef which is the superclass.
+
+        public void MakePasta()
+        {
+            Console.Write("The Chef makes pasta");
+        }
     }
 }

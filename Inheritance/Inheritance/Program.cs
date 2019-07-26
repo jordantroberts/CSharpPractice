@@ -12,6 +12,7 @@ namespace Inheritance
 
             ItalianChef italianChef = new ItalianChef();
             italianChef.MakeChicken();
+            italianChef.MakePasta();
 
             Console.ReadLine();
         }
