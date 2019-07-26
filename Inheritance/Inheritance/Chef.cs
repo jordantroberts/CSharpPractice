@@ -13,7 +13,7 @@ namespace Inheritance
             Console.WriteLine("The Chef makes salad");
         }
 
-        public voic MakeSpecialDish()
+        public void MakeSpecialDish()
         {
             Console.WriteLine("The Chef makes bbq ribs");
         }

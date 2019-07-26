@@ -6,6 +6,7 @@ namespace Inheritance
     {
         static void Main(string[] args)
         {
+            // Created a new chef object and told it to make chicken: 
             Chef chef = new Chef();
             chef.MakeChicken();
 
