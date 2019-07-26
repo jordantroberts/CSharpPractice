@@ -6,13 +6,11 @@ namespace Numbers
     {
         static void Main()
         {
-            int a = 7;
-            int b = 4;
-            int c = 3;
-            int d = (a + b) / c;
-            int e = (a + b) % c; 
-            Console.WriteLine($"quotient: {d}");
-            Console.WriteLine($"quotient: {e}");
+            double a = 5;
+            double b = 4;
+            double c = 2;
+            double d = (a + b) / c;
+            Console.WriteLine(d); 
 
             
         }
@@ -21,5 +19,4 @@ namespace Numbers
 
 // Output:
 
-    // 3
-    // 2 
+    // 4.5
