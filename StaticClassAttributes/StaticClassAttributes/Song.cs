@@ -8,8 +8,10 @@ namespace StaticClassAttributes
         public string title;
         public string artist;
         public int duration;
-
-        public Song(string aTitle, string aAttist, int aDuration)
+        // Create a static attribute to tell us how many song objects have been created:
+        public static int songCount = 0;
+       
+        public Song(string aTitle, string aArtist, int aDuration)
         {
             title = aTitle;
             artist = aArtist;
@@ -17,3 +19,6 @@ namespace StaticClassAttributes
         }
     }
 }
+
+// Another type of attribute is a static attribute, which isn't unique to each of the objects.
+// In other words, a static attribute is an attribute about the actual class. Will be the same across all of the objects of the class.
