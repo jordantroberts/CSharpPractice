@@ -6,10 +6,18 @@ namespace Loops
     {
         static void Main(string[] args)
         {
-            for (int counter = 0; counter < 10; counter++)
+            // Task: see if you can write C# code to find the sum of all integers 1 through 20 that are divisible by 3.
+
+            int total = 0;
+
+            for (int counter = 0; counter <= 20; counter++)
             {
-                Console.WriteLine($"Hello world! Counter is {counter}");
+                if (counter % 3 == 0)
+                {
+                    total += counter;
+                }
             }
+            Console.WriteLine(total);
         }
     }
 }
