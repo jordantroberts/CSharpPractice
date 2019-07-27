@@ -6,24 +6,11 @@ namespace Loops
     {
         static void Main(string[] args)
         {
-            int counter = 0;
-            while (counter < 10)
+            for (int counter = 0; counter < 10; counter++)
             {
-                Console.WriteLine($"Hello world! The counter is {counter}");
-                counter++;
+                Console.WriteLine($"Hello world! Counter is {counter}");
             }
         }
     }
 }
 
-//Output = 
-//Hello world! The counter is 0
-//Hello world! The counter is 1
-//Hello world! The counter is 2
-//Hello world! The counter is 3
-//Hello world! The counter is 4
-//Hello world! The counter is 5
-//Hello world! The counter is 6
-//Hello world! The counter is 7
-//Hello world! The counter is 8
-//Hello world! The counter is 9
