@@ -9,11 +9,12 @@ namespace UsingOut
             string statement = "GARRRR";
             string murmur = Whisper(statement, out bool marker);
             Console.WriteLine(murmur);
-            Console.WriteLine(marker);
+   
         }
 
         static string Whisper(string phrase, out bool wasWhisperCalled)
         {
+            // wasWhisperCalled = true; your bool param is also set/changed/modified and returned
             wasWhisperCalled = true;
             return phrase.ToLower();
         }
@@ -23,4 +24,3 @@ namespace UsingOut
 
 // Output:
 // garrr
-// True
