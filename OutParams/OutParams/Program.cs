@@ -6,19 +6,15 @@ namespace UsingOut
     {
         static void Main(string[] args)
         {
-            string statement = "GARRRR";
-           
-            string murmur = Whisper(statement, out bool marker);
-    
-            Console.WriteLine(murmur);
-            Console.WriteLine(marker);
-   
+            ReturnMultiple(1, out 1, out 2);
         }
 
-        static string Whisper(string phrase, out bool wasWhisperCalled)
+        public int ReturnMultiple(int input, out int output1, out int output2)
         {
-            wasWhisperCalled = true;
-            return phrase.ToLower();
+            output1 = input + 1;
+            output2 = input + 2;
+
+            return input;
         }
     }
 }
