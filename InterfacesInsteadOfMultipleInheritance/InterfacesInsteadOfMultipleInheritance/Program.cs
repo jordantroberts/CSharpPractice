@@ -74,3 +74,7 @@ namespace Composition
 	}
 
 }
+
+// First and foremost, interfaces in C# are a means to get around the lack of multiple inheritances in C#, meaning you cannot inherit from multiple classes
+// but you can implement multiple interfaces.
+// OOP tries to resemble how objects are defined in real life, and interfaces are a very logical way of grouping objects in terms of behavior.
