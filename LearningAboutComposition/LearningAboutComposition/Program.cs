@@ -56,6 +56,8 @@ namespace Composition
 
         }
 
+        // Implement the exposed methods in the composing class as well:
+
         public void Bark() => o1.Bark();
         public void Move() => o2.Move();
         public void Clean() => o3.Clean();
